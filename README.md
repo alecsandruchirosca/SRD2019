@@ -65,6 +65,8 @@ In acest folder aveti programul din laborator. Pe acesta puteti sa-l compilati m
 ```
 snap install code --classic
 ```
+
+
 ### Pentru compilarea manuala
 
 ``` 
