@@ -4,8 +4,6 @@
 #include "globals.hh"
 #include "AnalysisManager.hh"
 
-#include "G4GDMLParser.hh"
-
 class G4VPhysicalVolume;
 class DetectorMessenger;
 class G4LogicalVolume;
@@ -22,6 +20,5 @@ public:
 
 private:
   AnalysisManager* analysis;
-  G4GDMLParser gParser;
 };
 #endif
