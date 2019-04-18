@@ -16,6 +16,7 @@ Folderul data contine fisierele de iesire ce contin spectrele inregistrate folos
 ```
 TFile* f("G4APP.root");
 TTree* tree;
+f.GetObject("102", tree);
 tree->SetScanField(0);
 .> out.dat
 tree->Scan();
