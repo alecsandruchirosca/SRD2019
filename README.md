@@ -49,7 +49,7 @@ cmake ../ -DGEANT4_BUILD_MULTITHREADED=ON \
     -DGEANT4_USE_QT=ON -DGEANT4_USE_XM=ON -DGEANT4_USE_OPENGL_X11=ON \
     -DGEANT4_USE_RAYTRACER_X11=ON -DGEANT4_INSTALL_DATA=ON -Wno-dev;
 make -j`grep -c processor /proc/cpuinfo`
-make install
+sudo make install
 echo `. geant4.sh >> ~/.bashrc`
 
 ```
