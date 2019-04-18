@@ -45,7 +45,7 @@ sudo apt install libboost-all-dev xfonts-75dpi xfonts-100dpi imagemagick
 4. Se creaza directorul build si se initializeaza compilarea pachetului:
 ```
 mkdir build && cd build
-cmake ~/GEANT4/source/geant4.10.05 -DGEANT4_BUILD_MULTITHREADED=ON \
+cmake ../ -DGEANT4_BUILD_MULTITHREADED=ON \
     -DGEANT4_USE_QT=ON -DGEANT4_USE_XM=ON -DGEANT4_USE_OPENGL_X11=ON \
     -DGEANT4_USE_RAYTRACER_X11=ON -DGEANT4_INSTALL_DATA=ON -Wno-dev;
 make -j`grep -c processor /proc/cpuinfo`
