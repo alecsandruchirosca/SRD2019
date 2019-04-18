@@ -13,7 +13,7 @@ Folosind informatiile obtinute, calculati eficacitatea totala a detectorului si 
 
 Folderul data contine fisierele de iesire ce contin spectrele inregistrate folosind macro-ul ROOT:
 
-'''
+```
 TFile* f("G4APP.root");
 TTree* tree;
 tree->SetScanField(0);
@@ -21,7 +21,7 @@ tree->SetScanField(0);
 tree->Scan();
 .>
 .q
-'''
+```
 
 Folosind aceste date si avand in vedere faptul ca pentru 0cm au fost generate 1E+5 evenimente in sursa, pentru 10cm au fost generate 1E+6 evenimente, pentru 30 de cm 1E+7 evenimente respectiv petru 50 de cm 1E+8 evenimente in sursa puteti calcula eficacitatea relativa, absoluta si de pick pentru sursa noastra de <sup>137</sup>Cs.
 
